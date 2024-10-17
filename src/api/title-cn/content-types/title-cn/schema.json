@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "title_cns",
+  "info": {
+    "singularName": "title-cn",
+    "pluralName": "title-cns",
+    "displayName": "Title_cn"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    }
+  }
+}

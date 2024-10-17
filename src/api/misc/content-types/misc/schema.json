@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "miscs",
+  "info": {
+    "singularName": "misc",
+    "pluralName": "miscs",
+    "displayName": "Misc"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "content": {
+      "type": "string"
+    }
+  }
+}

@@ -11,7 +11,7 @@ async function seedExampleApp() {
   if (shouldImportSeedData) {
     try {
       console.log('Setting up the template...');
-      await importSeedData();
+      //await importSeedData();
       console.log('Ready to go');
     } catch (error) {
       console.log('Could not import seed data');
